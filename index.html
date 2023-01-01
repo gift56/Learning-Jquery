@@ -37,6 +37,12 @@
 
       // moving elements
       $("#target2").appendTo("#right-well");
+
+      // copying elements
+      $("#target2").clone().appendTo("#right-well");
+
+      // targeting parent elements
+      $("#target1").parent().css("background-color", "red")
     });
   </script>
   <body>
