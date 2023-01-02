@@ -1,2 +1,11 @@
-@mixin box-shadow($val){ 
+@mixin box-shadow($val) {
+  @if $val == danger {
+    color: yellow;
   }
+  @else if $val == success {
+    color: green;
+  }
+  @else {
+    color: black;
+  }
+}
