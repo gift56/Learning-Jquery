@@ -2,9 +2,10 @@
 @import "./module/reset";
 @import "./module/mixin";
 
-
 @each $key, $color in $colors {
-  .#{$color}-text {color: $color;}
+  .#{$color}-text {
+    color: $color;
+  }
 }
 
 @for $i from 1 through 12 {
@@ -18,4 +19,14 @@
   }
 }
 
+$colors: (
+  color1: blue,
+  color2: black,
+  color3: red,
+);
 
+@each $key, $color in $colors {
+  .#{$color}-bg {
+    background-color: $color;
+  }
+}
