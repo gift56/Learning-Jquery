@@ -1,3 +1,14 @@
 @import "./module/varibles";
 @import "./module/reset";
 @import "./module/mixin";
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: 100%/12 * $i;
+  }
+  @for $j from 1 through 5 {
+    .text-#{$j} {
+      font-size: 15px * $j;
+    }
+  }
+}
