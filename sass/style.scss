@@ -30,3 +30,9 @@ $colors: (
     background-color: $color;
   }
 }
+
+$x: 1;
+@while $x <= 5 {
+  .text-#{$x} { font-size: 15px * $x;}
+  $x: $x + 1;
+}
