@@ -2,6 +2,11 @@
 @import "./module/reset";
 @import "./module/mixin";
 
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+
 @for $i from 1 through 12 {
   .col-#{$i} {
     width: 100%/12 * $i;
@@ -12,3 +17,5 @@
     }
   }
 }
+
+
