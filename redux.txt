@@ -19,6 +19,7 @@ const action = {
   type: "LOGIN"
 }
 // Returning action to redux store
+
 function actionCreator() {
   return action;
 }
