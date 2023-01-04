@@ -20,3 +20,6 @@ const action = {
 }
 
 // Returning action to redux store
+function actionCreator() {
+  return action;
+}
