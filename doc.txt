@@ -376,6 +376,7 @@ class Controller extends React.Component {
 }
 
 // Getting the random answer
+
 const inputStyle = {
   width: 235,
   margin: 5
