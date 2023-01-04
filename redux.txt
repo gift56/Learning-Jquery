@@ -18,3 +18,5 @@ const currentState = store.getState()
 const action = {
   type: "LOGIN"
 }
+
+// Returning action to redux store
