@@ -307,4 +307,4 @@ const addToDo = (todo) => {
 
 const store = Redux.createStore(immutableReducer);
 
-//
+// spreading through array
