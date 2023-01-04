@@ -265,3 +265,5 @@ class MyComponent extends React.Component {
     return <div />
   }
 };
+
+// componentDidMount
