@@ -93,3 +93,5 @@ const logoutUser = () => {
     type: 'LOGOUT'
   }
 };
+
+// Using constant varible
