@@ -245,3 +245,4 @@ class RenderInput extends React.Component {
 };
 
 //LifecycleMethod
+          List of life cycle methods
