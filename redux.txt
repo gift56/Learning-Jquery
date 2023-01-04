@@ -25,3 +25,5 @@ function actionCreator() {
 }
 
 // Using dispatch
+
+store.dispatch(loginAction());
