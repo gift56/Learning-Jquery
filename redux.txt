@@ -27,3 +27,6 @@ function actionCreator() {
 // Using dispatch
 
 store.dispatch(loginAction());
+
+
+// Updating state based on actions
