@@ -42,4 +42,4 @@ class DisplayMessages extends React.Component {
   }
 };
 
-//
+// Working on some react redux
