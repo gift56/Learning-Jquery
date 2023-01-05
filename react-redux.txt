@@ -231,4 +231,4 @@ const connect = ReactRedux.connect;
 const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps) (Presentational)
 
 
-// Co
+// Connecting message app
