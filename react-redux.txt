@@ -1,1 +1,43 @@
 // First messaging app
+
+class DisplayMessages extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: '',
+      messages: []
+    }
+    this.submitMessage = this.submitMessage.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  // Add handleChange() and submitMessage() methods here
+  handleChange(e) {
+    this.setState({
+      input: e.target.value,
+      messages: this.state.messages
+    });
+  }
+  submitMessage() {
+    this.setState({
+      messages:  [...this.state.messages, this.state.input],
+      input: ""
+    });
+  }
+
+  render() {
+    const items = this.state.messages.map((item, i) => (
+      <li key={i}>{item}</li>
+    ));
+    return (
+      <div>
+        <h2>Type in a new Message:</h2>
+        { /* Render an input, button, and ul below this line */}
+        <input value={this.state.input} onChange={this.handleChange}
+        />
+        <button onClick={this.submitMessage}>Add message</button>
+        <ul>{items}</ul>
+        { /* Change code above this line */}
+      </div>
+    );
+  }
+};
