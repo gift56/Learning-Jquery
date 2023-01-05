@@ -327,3 +327,5 @@ const addToDo = (todo) => {
 }
 
 const store = Redux.createStore(immutableReducer);
+
+// Removing Item from an array
