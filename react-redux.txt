@@ -164,3 +164,13 @@ class AppWrapper extends React.Component {
 };
 
 // Mapping through some stuff
+
+const state = [];
+
+// Change code below this line
+
+const mapStateToProps = (state)=>{
+  return {
+    messages: state
+  }
+}
