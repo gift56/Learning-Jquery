@@ -336,5 +336,5 @@ class AppWrapper extends React.Component {
   }
 };
 
-// working on some stuff
+// Extract Local State into Redux
 
