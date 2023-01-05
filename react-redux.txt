@@ -232,3 +232,4 @@ const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps) (Present
 
 
 // Connecting message app
+
